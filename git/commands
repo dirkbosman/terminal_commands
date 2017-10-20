@@ -1,0 +1,19 @@
+
+
+$ git init .
+
+$ git config --global user.email "your@email.com"
+$ git config --global user.name "your name"
+
+git status
+
+$ git add *.ipynb
+
+$ git commit -m "First commit"
+
+
+$ git remote add origin https://github.com/<yourusername>/first-python-notebook.git
+
+$ git push origin master
+
+$ git push -f origin master
